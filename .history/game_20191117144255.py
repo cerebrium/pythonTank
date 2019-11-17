@@ -76,7 +76,7 @@ def draw_tank_two():
         )        
 
 def get_velocity_and_angle():
-    velocity, angel = input('Please enter a velocity (x-component) and an angle (in degrees) space no comma please!').split()
+    velocity, angel = input('Please enter a velocity (x-component) and an angle (in degrees)!').split()
     endpoint = ((int(velocity)**2)*math.sin(2*math.radians(int(angel))))/9.8
     return endpoint 
 
