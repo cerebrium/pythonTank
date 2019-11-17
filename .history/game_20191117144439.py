@@ -132,7 +132,7 @@ def player_two_goes(tank1, tank2):
 
 def play_game():
     draw_tanks()
-    tank1, tank2 = input('Please give the coordinates of the two tanks (two number along x-axis between 0 and 799 with space between them no comma)').split()
+    tank1, tank2 = input('Please give the coordinates of the two tanks (two number along x-axis between 0 and 799with space between them no comma)').split()
     while True:
         myVar = player_one_goes(tank2, tank1)
         if myVar == False:
